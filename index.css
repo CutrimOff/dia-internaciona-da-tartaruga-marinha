@@ -1,0 +1,195 @@
+body {
+
+    background-color: rgb(16, 33, 68);
+    color: white;
+}
+
+nav {
+    background-color: rgb(35, 35, 121);
+    margin: auto;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0);
+}
+
+nav .logo {
+    color: black;
+    float: left;
+    display: block;
+}
+
+nav a {
+    color: black;
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 13px;
+    padding: 20px 20px;
+
+}
+
+nav a:hover {
+    transition: 1s;
+    background-color: rgb(9, 2, 71);
+    color: rgb(157, 150, 255);
+}
+
+.title {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.top {
+    text-align: center;
+
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header a {
+    text-align: center;
+    font-family: poppins;
+}
+
+header img {
+    width: 1000px;
+    height: 500px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    color: aqua;
+
+}
+
+header p {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: poppins;
+    color: white;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: poppins medium;
+    text-align: justify;
+}
+
+h2 {
+    font-family: poppins;
+    color: white;
+}
+
+h3 {
+    font-family: poppins medium;
+    color: aqua;
+    text-align: center;
+}
+
+a.collor {
+    font-size: 20px;
+    color: rgb(87, 188, 255);
+    text-decoration: none;
+    text-align: center;
+    animation: fade 25s;
+}
+
+p {
+    text-align: justify;
+
+}
+
+
+.fade {
+  
+    animation: fade 30s normal;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+li {
+    font-family: poppins medium;
+    font-size: 10px;
+}
+
+li.close {
+    list-style: disc;
+}
+
+.vid {
+
+    text-align: center;
+    border: 1px rgb(233, 10, 10);
+    padding: 5px;
+}
+
+.bottom {
+    text-align: center;
+    width: 100%;
+}
+
+.bottom img:hover{
+    transform:scale(1.10,1.10);
+    animation: scale 2s;
+}
+
+main a {
+    color: rgb(87, 188, 255);
+    text-decoration: none;
+    text-align: initial;
+
+}
+
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box {
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(35, 35, 121);
+    max-width: none;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-family: poppins;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
